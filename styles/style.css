@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap')
 /* shared styles */
 
-* {
+*{
     font-family: "Mulish", sans-serif;
 }
 .btn-primary{
@@ -30,7 +30,7 @@ margin-top: 0px;
     margin-bottom: 24px;
     margin-top: 0px;
 }
-body {
+header, main {
     padding: 20px 130px;
 }
 
@@ -39,7 +39,7 @@ body {
 
 
 
-nav .website-name {
+ .website-name {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -71,7 +71,7 @@ nav li a {
     color: #FF5400;
 }
 
-nav h3 {
+nav, footer h3 {
     font-size: 2.25rem;
 
 }
@@ -260,6 +260,42 @@ color: #FFF;
 
 }
 
+/* footer section */
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+  
+    margin-top: 100px;
+    padding: 100px 0px;
+
+}
+.icon{
+    display: flex;
+    margin-left: 560px;
+    margin-top: 35px;
+
+}
+.footer .text-des{
+  
+    margin-left: 400px;
+    width: 500px;
+
+}
+.footer .website-name{
+    margin-left: 520px;
+}
+.footer .icon .iconpic{
+    margin-left: 25px;
+    
+}
+.footer-des{
+    color: #131318;
+font-family: Inter;
+font-weight: 300;
+margin-left: 570px;
+margin-top: 100px;
+
+}
+
 
 
 
@@ -269,8 +305,36 @@ color: #FFF;
     .bar{
         display: block;
         float: right;
+       
+
      }
-     ul{
-        display: none !important;
+     nav li{
+        display: none ;
      }
+  .banner{
+    width: auto;
+    height: 483px;
+    flex-shrink: 0;
+    padding-top: 20px;
+    background-size: cover;
+  }
+  .banner-title{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  .text-des{
+    width: 304px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    line-height: 15px;
+  }
+  .btn-group, .popular-tour, .row, .cartoon{
+   flex-direction: column;
+  }
+  .cartoon1, .cartoon2, .cartoon3{
+    width: 310px;
+  }
+  .cartoon3{
+    margin-left: 0px;
+  }
 }
